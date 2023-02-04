@@ -1,0 +1,73 @@
+
+body {
+    background-color: hsl(30, 38%, 92%);
+
+}
+img {
+
+    width: 50%;
+    float: left;
+    margin-right: 20px;
+    border-radius: 2% 0 0 2%;
+   
+
+}
+h1{
+    color: hsl(212, 21%, 14%);
+    font-family: 'Fraunces', serif;
+    line-height: 1;
+    
+}
+p{
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    
+}
+li{
+    display: flex;
+}
+
+.card-container{
+    background-color: white;
+    height: 375px;
+    width: 500px;
+    margin: 165px auto;
+    border-radius: 2%;
+
+}
+
+.card-content {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.price-heading {
+    margin-top: 0;
+    margin-right: 0;
+    color: hsl(158, 36%, 37%);
+}
+.cancelled-price{
+    height: 12px;
+    margin: 15px ;
+    
+}
+
+.btn {
+    -webkit-border-radius: 12;
+    -moz-border-radius: 12;
+    border-radius: 12px;
+    color: #ffffff;
+    font-size: 18px;
+    background: hsl(158, 36%, 37%);
+    padding: 17px 40px 17px 40px;
+    text-decoration: none;
+
+    
+  }
+  
+  .btn:hover {
+    background: hsl(212, 21%, 14%);
+    text-decoration: none;
+  }
